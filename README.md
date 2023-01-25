@@ -4,4 +4,4 @@
 
 ## Books
 
-- [Learning JavaScript Data Structures and Algorithms](/books/)
+- [Learning JavaScript Data Structures and Algorithms](/books/learning-javascript-data-structures-and-algorithms/)
