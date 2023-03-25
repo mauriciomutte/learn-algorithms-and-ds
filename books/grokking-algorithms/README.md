@@ -18,6 +18,8 @@
 
 ### 1.3 Big O
 
+![image](https://user-images.githubusercontent.com/20569339/227744956-b25be25a-c3f2-4dbe-a520-682bb3bcc603.png)
+
 - Big O notation is a way to describe the performance of an algorithm
 - Big O notation is about the worst-case scenario
 
@@ -28,3 +30,5 @@
 - O(n \* log n) -> log-linear time
 - O(n2) -> quadratic time
 - O(n!) -> factorial time
+
+![Book example](https://user-images.githubusercontent.com/20569339/227744866-0a755ea8-eb2f-47b8-a2ae-1cb72c272cad.png)
