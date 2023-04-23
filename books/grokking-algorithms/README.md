@@ -23,7 +23,7 @@
 - Big O notation is a way to describe the performance of an algorithm
 - Big O notation is about the worst-case scenario
 
-**Some common Big O run times**
+**Some common Big O complexity**
 
 - O(log n) -> log time
 - O(n) -> linear time
