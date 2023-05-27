@@ -31,3 +31,10 @@ You could explore my solutions to a series of coding exercises in the [`leetcode
 
 - 📚 Grokking Algorithms
 - 📽️ Frontend Masters: Algorithms and Data Structures
+
+## Credits
+
+This repository was inspired by:
+
+- [willianantunes/lanchonete-gigabyte](https://github.com/willianantunes/lanchonete-gigabyte)
+- [imteekay/algorithms](https://github.com/imteekay/algorithms)
