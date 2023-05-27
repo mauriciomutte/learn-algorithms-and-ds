@@ -23,6 +23,10 @@ Build the the foundation by learning the fundamental algorithms and data structu
 - [ ] Dynamic Programming
 - [ ] Linked list
 
+## Practice Problems
+
+You could explore my solutions to a series of coding exercises in the [`leetcode` directory](./leetcode/).
+
 ## Resources
 
 - 📚 Grokking Algorithms
