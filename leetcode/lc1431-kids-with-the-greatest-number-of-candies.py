@@ -15,3 +15,23 @@ class Solution:
                 result.append(False)
 
         return result
+
+
+class TestSolution(unittest.TestCase):
+    def setUp(self) -> None:
+        self.solution = Solution()
+
+    def test_example_1(self):
+        candies = [2, 3, 5, 1, 3]
+        extraCandies = 3
+        self.assertEqual([True, True, True, False, True], self.solution.kidsWithCandies(candies, extraCandies))
+
+    def test_example_2(self):
+        candies = [4, 2, 1, 1, 2]
+        extraCandies = 1
+        self.assertEqual([True, False, False, False, False], self.solution.kidsWithCandies(candies, extraCandies))
+
+    def test_example_3(self):
+        candies = [12, 1, 12]
+        extraCandies = 10
+        self.assertEqual([True, False, True], self.solution.kidsWithCandies(candies, extraCandies))
