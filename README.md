@@ -18,7 +18,7 @@ Build the the foundation by learning the fundamental algorithms and data structu
 
 **Algorithms:**
 
-- [ ] Searching: Linear Search, Binary Search
+- [ ] Searching: Linear Search, [Binary Search](./algorithms/binary-search.py)
 - [ ] Sorting: Bubble Sort, Selection Sort, Insertion Sort, Merge Sort, Quick Sort
 - [ ] Dynamic Programming
 - [ ] Linked list
