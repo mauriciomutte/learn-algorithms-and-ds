@@ -9,11 +9,11 @@ Build the the foundation by learning the fundamental algorithms and data structu
 **Data Structures:**
 
 - [ ] Arrays
-- [ ] Hash Tables
 - [ ] Linked Lists
-- [ ] Stacks
 - [ ] Queues
+- [ ] Stacks
 - [ ] Trees
+- [ ] Hash Tables
 - [ ] Graphs
 
 **Algorithms:**
