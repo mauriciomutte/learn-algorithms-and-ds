@@ -4,7 +4,7 @@
 
 ## Fundamentals
 
-Build the the foundation by learning the fundamental algorithms and data structures
+Build the foundation by learning the fundamental algorithms and data structures
 
 **Data Structures:**
 
