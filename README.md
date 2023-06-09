@@ -10,7 +10,7 @@ Build the foundation by learning the fundamental algorithms and data structures
 
 - [x] [Arrays](./data-structures/array.ts)
 - [x] [Linked Lists](./data-structures/linked-list.ts)
-- [ ] Queues
+- [x] [Queues](./data-structures/queue.ts)
 - [ ] Stacks
 - [ ] Trees
 - [ ] Hash Tables
