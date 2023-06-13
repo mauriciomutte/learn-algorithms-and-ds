@@ -8,7 +8,7 @@ class ListNode<T> {
   }
 }
 
-class LinkedList<T> {
+class SinglyLinkedList<T> {
   public length: number
   public head: ListNode<T> | null
 
