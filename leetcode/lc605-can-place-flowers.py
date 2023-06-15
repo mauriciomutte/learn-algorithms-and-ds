@@ -1,8 +1,10 @@
+# Link: https://leetcode.com/problems/can-place-flowers/
+
 import unittest
 
 
 class Solution:
-    def can_place_flowers(self, flowerbed: list[int], n: int) -> bool:
+    def canPlaceFlowers(self, flowerbed: list[int], n: int) -> bool:
         if n == 0:
             return True
 
@@ -29,35 +31,35 @@ class TestSolution(unittest.TestCase):
         flowerbed = [1, 0, 0, 0, 1]
         n = 1
         expected = True
-        self.assertEqual(self.solution.can_place_flowers(flowerbed, n), expected)
+        self.assertEqual(self.solution.canPlaceFlowers(flowerbed, n), expected)
     
     def test_example_2(self) -> None:
         flowerbed = [1, 0, 0, 0, 1]
         n = 2
         expected = False
-        self.assertEqual(self.solution.can_place_flowers(flowerbed, n), expected)
+        self.assertEqual(self.solution.canPlaceFlowers(flowerbed, n), expected)
 
     def test_example_3(self) -> None:
         flowerbed = [0, 0, 1, 0, 1]
         n = 1
         expected = True
-        self.assertEqual(self.solution.can_place_flowers(flowerbed, n), expected)
+        self.assertEqual(self.solution.canPlaceFlowers(flowerbed, n), expected)
 
     def test_example_4(self) -> None:
         flowerbed = [1, 0, 0, 0, 0, 0, 1]
         n = 2
         expected = True
-        self.assertEqual(self.solution.can_place_flowers(flowerbed, n), expected)
+        self.assertEqual(self.solution.canPlaceFlowers(flowerbed, n), expected)
 
     def test_example_5(self) -> None:
         flowerbed = [0, 0, 1, 0, 1]
         n = 1
         expected = True
-        self.assertEqual(self.solution.can_place_flowers(flowerbed, n), expected)
+        self.assertEqual(self.solution.canPlaceFlowers(flowerbed, n), expected)
 
     def test_example_6(self) -> None:
         flowerbed = [1, 0, 0, 0, 0, 1]
         n = 2
         expected = False
-        self.assertEqual(self.solution.can_place_flowers(flowerbed, n), expected)
+        self.assertEqual(self.solution.canPlaceFlowers(flowerbed, n), expected)
 

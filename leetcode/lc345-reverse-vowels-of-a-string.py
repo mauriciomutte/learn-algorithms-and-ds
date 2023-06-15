@@ -1,8 +1,10 @@
+# Link: https://leetcode.com/problems/reverse-vowels-of-a-string/
+
 import unittest
 
 
 class Solution:
-    def reverse_vowels(self, s: str) -> str:
+    def reverseVowels(self, s: str) -> str:
         vowels = set("aeiouAEIOU")
 
         s_vowels = []
@@ -26,8 +28,8 @@ class TestSolution(unittest.TestCase):
     
     def test_example_1(self):
         s = "hello"
-        self.assertEqual("holle", self.solution.reverse_vowels(s))
+        self.assertEqual("holle", self.solution.reverseVowels(s))
 
     def test_example_2(self):
         s = "leetcode"
-        self.assertEqual("leotcede", self.solution.reverse_vowels(s))
+        self.assertEqual("leotcede", self.solution.reverseVowels(s))

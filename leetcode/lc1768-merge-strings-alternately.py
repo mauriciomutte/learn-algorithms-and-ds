@@ -4,7 +4,7 @@ import unittest
 
 
 class Solution:
-    def merge_alternately(self, word1: str, word2: str) -> str:
+    def mergeAlternately(self, word1: str, word2: str) -> str:
         result = []
         min_length = min(len(word1), len(word2))
 
@@ -29,19 +29,19 @@ class TestSolution(unittest.TestCase):
     def test_example_1(self):
         word1 = "abc"
         word2 = "pqr"
-        self.assertEqual("apbqcr", self.solution.merge_alternately(word1, word2))
+        self.assertEqual("apbqcr", self.solution.mergeAlternately(word1, word2))
 
     def test_example_2(self):
         word1 = "ab"
         word2 = "pqrs"
-        self.assertEqual("apbqrs", self.solution.merge_alternately(word1, word2))
+        self.assertEqual("apbqrs", self.solution.mergeAlternately(word1, word2))
 
     def test_example_3(self):
         word1 = "abcd"
         word2 = "pq"
-        self.assertEqual("apbqcd", self.solution.merge_alternately(word1, word2))
+        self.assertEqual("apbqcd", self.solution.mergeAlternately(word1, word2))
 
     def test_example_4(self):
         word1 = "abcdefghi"
         word2 = "pq"
-        self.assertEqual("apbqcdefghi", self.solution.merge_alternately(word1, word2))
+        self.assertEqual("apbqcdefghi", self.solution.mergeAlternately(word1, word2))
