@@ -12,16 +12,13 @@ Build the foundation by learning the fundamental algorithms and data structures
 - [x] [Linked Lists](./data-structures/linked-list.ts)
 - [x] [Queues](./data-structures/queue.ts)
 - [x] [Stacks](./data-structures/stack.ts)
-- [ ] Trees
-- [ ] Hash Tables
-- [ ] Graphs
+- [x] [Binary Tree](./data-structures/binary-tree.ts)
 
 **Algorithms:**
 
 - [x] Searching: [Linear Search](./algorithms/linear-search.ts), [Binary Search](./algorithms/binary-search.py)
 - [ ] Sorting: [Bubble Sort](./algorithms/bubble-sort.ts), Selection Sort, Insertion Sort, Merge Sort, Quick Sort
 - [ ] Dynamic Programming
-- [ ] Linked list
 
 ## Practice Problems
 
