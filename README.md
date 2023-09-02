@@ -29,7 +29,7 @@ You could explore my solutions to a series of coding exercises in the [`leetcode
 - 📚 Grokking Algorithms
 - 📽️ Frontend Masters: Algorithms and Data Structures
 
-## Credits
+## Appreciation
 
 This repository was inspired by:
 
